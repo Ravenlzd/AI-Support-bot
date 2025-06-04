@@ -1,0 +1,12 @@
+You: hi
+Bot: Hello! How can I help you today?
+
+You: how is the weather right now in vilnius?
+Bot: Sorry, I didn’t understand that. Can you rephrase?
+
+You: Order status
+Bot: Please visit your orders page to track: https://example.com/orders
+
+You: goodbye
+Bot: Goodbye!
+

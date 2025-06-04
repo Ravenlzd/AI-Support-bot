@@ -1,0 +1,57 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good morning", "Hello there", "Greetings", "Merhaba"],
+            "responses": [
+              "Hello! How can I help you today?",
+              "Hi there, what can I assist you with?"
+            ]
+          } ,
+          
+      {
+        "tag": "password_reset",
+        "patterns": ["I forgot my password", "Reset password", "Can't log in"],
+        "responses": [
+          "Click 'Forgot Password' to reset your login info.",
+          "You can reset your password at: https://example.com/reset"
+        ]
+      },
+      {
+        "tag": "order_status",
+        "patterns": [
+          "Where is my order?",
+          "Track order",
+          "Order status",
+          "Can you check my delivery?",
+          "My package is late",
+          "Check my shipping",
+          "Where's my package?",
+          "Where is my shipment?",
+          "Track my order",
+          "Siparişim nerede",
+          "Kargo nerede"
+        ],
+        "responses": [
+          "Please visit https://example.com/orders to check your order status.",
+          "You can track your shipment on your account page."
+        ]
+      }
+      ,
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you"],
+        "responses": [
+          "Thanks for chatting! Have a great day!",
+          "Goodbye! 👋"
+        ]
+      } ,
+      {
+        "tag": "fallback",
+        "patterns": [],
+        "responses": ["I'm not sure I understood that. Could you try rephrasing?", "Can you explain that in a different way?"]
+      }
+      
+    ]
+  }
+  
